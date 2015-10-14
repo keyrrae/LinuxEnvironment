@@ -12,14 +12,14 @@ for i=2:26
     cdf(i)=cdf(i-1)+Pdist(i-1)
 end
 
-plot(delay,cdf)
-xlabel('Delay(s)')
-ylabel('Cumulative Density')
+% plot(delay,cdf)
+% xlabel('Delay(s)')
+% ylabel('Cumulative Density')
 
 %===================
-% plot(delay,Pdist)
-% xlabel('Delay(s)')
-% ylabel('Probability')
+plot(delay,Pdist)
+xlabel('Delay(s)')
+ylabel('Probability')
 
 max(delay)
 min(delay)
