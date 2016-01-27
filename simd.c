@@ -31,8 +31,7 @@ static int sum_vectorized(int n, int *a)
 
 
 
-static int sum_vectorized_unrolled(int n, int *a)
-{
+static int sum_vectorized_unrolled(int n, int *a) {
     // UNROLL YOUR VECTORIZED CODE HERE
     int storeSIMDed[4];
     int i;
