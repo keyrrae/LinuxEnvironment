@@ -1,4 +1,4 @@
-[xuanwang@comet-ln3 mm]$ cat benchmark-mpi.cpp 
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
