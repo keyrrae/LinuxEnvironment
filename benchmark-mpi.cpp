@@ -133,13 +133,7 @@ ITERATION:
 
 
 
-	if (myid == 0) {
-        // Compute remaining multiplications
-		// when size % nproc > 0.
-		if (n % numprocs > 0) {
-			square_dgemm_notemp(n, (n/numprocs)*numprocs, n, A, B, C);
-		
-		}
+
 /*		
 		if (iter < n_iterations){
 			iter++;
